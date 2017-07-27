@@ -1,1 +1,138 @@
-/* TEST */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {    
+    background: url('bg-12col.png') center repeat-y;
+}
+
+header {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border: 1px solid black;
+	height: 300px;
+}
+
+header div {
+	clear: both;
+}
+
+header img {
+	float: right;
+}
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border: 1px solid black;
+}
+
+
+#footer {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border: 1px solid black;
+}
+
+#footer p {
+	clear: both;
+}
+
+#left {
+	float: left;
+	width: 485px;
+}
+
+#right {
+	float: right;
+	width: 220px;
+}
+
+.square {
+	float: left;
+	display:inline;
+	margin-right: 20px;
+	
+	}
+
+
+#last {
+	margin-right:0px;
+
+}
+
+#nav-left {
+  float: left;
+  text-align: left;
+  overflow: hidden; /* prevents the great collapse */
+  
+padding: 10px 0;
+margin: 0; /* overwrites existing margins */
+}
+#nav-right {
+  
+  float: right;
+  text-align: left;
+  overflow: hidden; /* prevents the great collapse */
+
+padding: 10px 0;
+margin: 0; /* overwrites existing margins */
+}
+
+#nav-left li {
+list-style: none; /* gets rid of the bullets */
+float: left;
+margin: 0; /* overwrites existing margins */
+margin-right: 36px; /* gives the items space between */
+
+}
+
+#nav-right li {
+list-style: none; /* gets rid of the bullets */
+float: left;
+margin: 0; /* overwrites existing margins */
+margin-right: 20px; /* gives the items space between */
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+li {
+    display: inline-block;
+}
+
+
+#logo {
+  position: absolute;
+  left: 50%;
+  margin: -48px 0px 0px -108px;
+ 
+  -top: 90px;
+} 
+
+.left-content {
+    float: left;
+    width: 520px;
+   }
+.right-content {
+    float: right;
+    width: 380px;
+}
+#clear {
+	clear: both;
+}
+
+.squareone {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 50px;
+}
