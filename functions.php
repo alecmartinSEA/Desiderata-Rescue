@@ -11,3 +11,9 @@ Version: 1.0
 register_nav_menus(array('main-menu'=>__('Main Menu')));
 
 register_nav_menus(array('maintwo-menu'=>__('Maintwo Menu')));
+
+
+
+//Add Support for post thumbnails & featured images
+add_theme_support('post-thumbnails');
+//

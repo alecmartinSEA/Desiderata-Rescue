@@ -6,7 +6,7 @@
 <body>
 	<header>
 		
-<img src="<?php bloginfo('template_directory'); ?>/searchbar-fpo.png"> 
+		<img src="<?php bloginfo('template_directory'); ?>/searchbar-fpo.png"> 
 	<div>
         <!--
 		<ul id="nav-left">
@@ -33,17 +33,32 @@
 -->
 </div>	
 	</header>
- 
+
 <div id="content">
-	<img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="square" id="last" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" id="last" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">  
-    	<p>this is our content area</p>
-</div>   
-    <div id="footer">
+<p class="left-content">
+Suspendisse elementum elit lacus, at conse
+quat arcu ullamcorper eget. Integer ut nisi
+turpis.
+Suspendisse elementum elit lacus, at conse
+quat arcu ullamcorper eget. Integer ut nisi
+turpis.
+Suspendisse elementum elit lacus, at conse
+quat arcu ullamcorper eget. Integer ut nisi
+turpis.
+Suspendisse elementum elit lacus, at conse
+quat arcu ullamcorper eget. Integer ut nisi
+turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis.Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. Integer ut nisi turpis.</p>	
+<img class="right-content" src="<?php bloginfo('template_directory'); ?>/adopt-fpo.png">
+    
+<div id="clear">		
+<img class="squareone" src="<?php bloginfo('template_directory'); ?>/adoptsquare.png">
+		
+<img class="squareone" id="last" src="<?php bloginfo('template_directory'); ?>/adoptsquare.png">
+	
+<p>this is our content area</p>
+	</div>
+	</div>
+	<div id="footer">
 		<div id="left">
 			<p>Sign up for news from Desiderata Rescue</p>
 			<img src="<?php bloginfo('template_directory'); ?>/emailsignup-fpo.png">
@@ -59,7 +74,7 @@
 		<img class="square" src="<?php bloginfo('template_directory'); ?>/sponser-fpo.png">
 <img class="square" id="last" src="<?php bloginfo('template_directory'); ?>/sponser-fpo.png">
 		<p>&copy All Rights Reserved to Desiderata Rescue</p>
-        <small>index.php</small>
+        <small>page.php</small>
 	</div>
 
 </body>
