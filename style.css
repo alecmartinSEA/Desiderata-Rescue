@@ -81,26 +81,19 @@ padding: 10px 0;
 margin: 0; /* overwrites existing margins */
 }
 
-#nav-left li {
-list-style: none; /* gets rid of the bullets */
-float: left;
-margin: 0; /* overwrites existing margins */
-margin-right: 36px; /* gives the items space between */
 
-}
 
-#nav-right li {
-list-style: none; /* gets rid of the bullets */
-float: left;
-margin: 0; /* overwrites existing margins */
-margin-right: 20px; /* gives the items space between */
 
-}
+
+
+
+
 
 ul {
     margin: 0;
     list-style: none;
     display: inline-block;
+
     
 }
 

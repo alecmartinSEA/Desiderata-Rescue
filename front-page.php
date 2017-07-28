@@ -20,9 +20,12 @@
    		 
     <li><a href="#">Foster</a></li>
 </ul>-->
-<?php wp_nav_menu(array('theme_location'=>'main-menu','items_wrap'=>'<ul id="nav-left"></ul>'));?>
+<?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left" 
+class="%2$s">%3$s</ul>', ) ); ?>
 <img id="logo" src="<?php bloginfo('template_directory'); ?>/logo-fpo.png">       
-<?php wp_nav_menu(array('theme_location'=>'main-menu', 'container' => 'div', 'container_id' => 'navigation', 'items_wrap'=>'<ul id="nav-right"></ul>'));?>
+<?php wp_nav_menu(array('theme_location'=>'Main2', 'container' => false, 'items_wrap' => '<ul id="nav-right" 
+class="%2$s">%3$s</ul>', ) ); ?>
+
 <!--        
 <ul id="nav-right">
     <li><a href="#">Volunteer</a></li>
@@ -34,6 +37,7 @@
 </div>	
 	</header>
 	<div id="content">
+		<p>Test</p>
 		<img src="<?php bloginfo('template_directory'); ?>/fullsize-fpo.png">
 		<img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
 		<img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
