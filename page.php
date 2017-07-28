@@ -23,4 +23,4 @@ turpis. Suspendisse elementum elit lacus, at conse quat arcu ullamcorper eget. I
 <p>this is our content area</p>
 	</div>
 	
-	<?php get_header(); ?>
+	<?php get_footer(); ?>
