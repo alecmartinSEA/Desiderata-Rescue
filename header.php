@@ -6,7 +6,7 @@
 <body>
 	<header>
 		
-		<img src="<?php bloginfo('template_directory'); ?>/searchbar-fpo.png"> 
+		
 	<div>
         <!--
 		<ul id="nav-left">
@@ -20,11 +20,13 @@
    		 
     <li><a href="#">Foster</a></li>
 </ul>-->
+<img id="logo" src="<?php bloginfo('template_directory'); ?>/desiderata_logo.png">
+
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left" 
 class="%2$s">%3$s</ul>', ) ); ?>
-<img id="logo" src="<?php bloginfo('template_directory'); ?>/logo-fpo.png">       
-<?php wp_nav_menu(array('theme_location'=>'Main2', 'container' => false, 'items_wrap' => '<ul id="nav-right" 
-class="%2$s">%3$s</ul>', ) ); ?>
+<img id="search-button" src="<?php bloginfo('template_directory'); ?>/search.png"> 
+   
+
 
 <!--        
 <ul id="nav-right">
