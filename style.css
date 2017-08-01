@@ -19,7 +19,14 @@ header div {
 }
 
 header img {
+	float: left;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#search-button {
 	float: right;
+	margin-top: 187px;
 }
 
 #content {
@@ -63,23 +70,24 @@ header img {
 
 }
 
-#nav-left {
-  float: left;
-  text-align: left;
-  overflow: hidden; /* prevents the great collapse */
-  
-padding: 10px 0;
-margin: 0; /* overwrites existing margins */
+#nav-left:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }
-#nav-right {
-  
-  float: right;
-  text-align: left;
-  overflow: hidden; /* prevents the great collapse */
 
+#nav-left {
+  /*float: right;*/
+  text-align: justify;
+    min-width: 600px;
+  
+  overflow: hidden; /* prevents the great collapse */
+  
 padding: 10px 0;
-margin: 0; /* overwrites existing margins */
+margin-top: 187px;
+/* overwrites existing margins */
 }
+
 
 
 
@@ -102,14 +110,14 @@ li {
 }
 
 
-#logo {
+/*#logo {
   position: absolute;
   left: 50%;
   margin: -48px 0px 0px -108px;
  
   -top: 90px;
 } 
-
+*/
 .left-content {
     float: left;
     width: 520px;
