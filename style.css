@@ -29,12 +29,12 @@ header img {
 	border: 1px solid black;
 }
 
-
 #footer {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 	border: 1px solid black;
+  
 }
 
 #footer p {
@@ -67,34 +67,24 @@ header img {
   float: left;
   text-align: left;
   overflow: hidden; /* prevents the great collapse */
-  
 padding: 10px 0;
 margin: 0; /* overwrites existing margins */
 }
+
 #nav-right {
   
   float: right;
   text-align: left;
   overflow: hidden; /* prevents the great collapse */
-
 padding: 10px 0;
 margin: 0; /* overwrites existing margins */
 }
 
 
-
-
-
-
-
-
-
 ul {
     margin: 0;
     list-style: none;
-    display: inline-block;
-
-    
+    display: inline-block;   
 }
 
 li {
@@ -105,8 +95,7 @@ li {
 #logo {
   position: absolute;
   left: 50%;
-  margin: -48px 0px 0px -108px;
- 
+  margin: -48px 0px 0px -108px; 
   -top: 90px;
 } 
 
@@ -127,4 +116,16 @@ li {
     display: inline;
     margin-right: 20px;
     margin-top: 35px;
+}
+img.slider{
+    max-width: 940px;
+}
+
+img.square{
+    max-width: 300px;
+   
+}
+
+img.icon{
+    max-width: 60px;
 }
