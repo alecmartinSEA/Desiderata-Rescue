@@ -50,13 +50,13 @@ header img {
 	float: right;
 	width: 220px;
 }
-
+/*
 .square {
 	float: left;
 	display:inline;
 	margin-right: 20px;
 	}
-
+*/
 
 #last {
 	margin-right:0px;
@@ -121,11 +121,21 @@ img.slider{
     max-width: 940px;
 }
 
-img.square{
-    max-width: 300px;
-   
+img.partners{
+    max-width: 200px;   
 }
 
 img.icon{
     max-width: 60px;
+}
+
+div.footertop{
+  
+    text-align: center;
+    line-height: 800%;
+    
+}
+
+div.footerbottom{
+    text-align: center;
 }
