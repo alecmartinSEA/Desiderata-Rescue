@@ -1,10 +1,37 @@
 <?php /* Template Name: petpage */ ?>
 <?php get_header(); ?>
-	<img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="square" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="square" id="last" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
-    <img class="squareone" id="last" src="<?php bloginfo('template_directory'); ?>/square-fpo.png">  
-    	<p>this is our content area</p>
+<div id="content">
+	<h2>Avalible dogs</h2>
+	<div class="square">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>	
+	<div class="square">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>
+	<div class="square last">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>
+	<div class="square">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>
+	<div class="square">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>
+    <div class="square last">
+	<img  src="<?php bloginfo('template_directory'); ?>/square-fpo.png">
+	<h3>MIA</h3>
+	<p>Female, German</p>
+	</div>
+ </div>
+   	
 <?php get_footer(); ?>
