@@ -10,7 +10,7 @@ header {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
-	border: 1px solid black;
+	
 	height: 300px;
 }
 
@@ -18,7 +18,7 @@ header div {
 	clear: both;
 }
 
-header img {
+#logo {
 	float: left;
 	margin-top: 20px;
 	margin-right: 10px;
@@ -33,14 +33,32 @@ header img {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
-	border: 1px solid black;
+	border-bottom: 2px dotted black;
+
+	
+}
+
+.slider {
+	max-width: 940px;
+}
+
+#content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 #footer {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
-	border: 1px solid black;
+	
   
 }
 
@@ -57,17 +75,31 @@ header img {
 	float: right;
 	width: 220px;
 }
-/*
+
 .square {
 	float: left;
 	display:inline;
 	margin-right: 20px;
+	width: 300px;
+	margin-top: 15px;
+
 	}
-*/
+
+.square h3, .square p {
+	text-align: center;
+}
+
+#content h2 {
+    text-align: center;
+}
 
 #last {
 	margin-right:0px;
 
+}
+
+.last {
+	margin-right: 0;
 }
 
 #nav-left:after {
@@ -126,25 +158,27 @@ li {
     margin-right: 20px;
     margin-top: 35px;
 }
-img.slider{
-    max-width: 940px;
-}
 
-img.partners{
+
+
+
+
+.partners{
     max-width: 200px;   
 }
 
-img.icon{
+.icon{
     max-width: 60px;
 }
 
-div.footertop{
+.footertop{
   
     text-align: center;
     line-height: 800%;
     
 }
 
-div.footerbottom{
+.footerbottom{
     text-align: center;
+    border-top: 2px dotted black;
 }

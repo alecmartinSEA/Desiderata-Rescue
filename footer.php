@@ -1,4 +1,5 @@
-</div>
+
+	</div>
 	<div id="footer">
         <div class="footertop">
         <h3>ALWAYS APPRECIATE OUR PARTNERS</h3>
@@ -18,12 +19,15 @@
         <img class="icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.png">
         <p>Phone:206.777.7777</p>
         <p>desideratarescue@gmail.com</p>
-	</div>	
+		</div>
+		</div>
         <div class="footerbottom">
 		<p>&copy All Rights Reserved to Desiderata Rescue</p>
         <small>front-page.php</small>
         </div>
-	</div>
+	
 
 </body>
 </html>
+
+   

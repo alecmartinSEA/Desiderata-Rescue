@@ -7,7 +7,7 @@
 	<header>
 		
 		
-	<div>
+	
         <!--
 		<ul id="nav-left">
 			<li><a href="#">About</a></li>
@@ -20,11 +20,11 @@
    		 
     <li><a href="#">Foster</a></li>
 </ul>-->
-<img id="logo" src="<?php bloginfo('template_directory'); ?>/desiderata_logo.png">
+<img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png">
 
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left" 
 class="%2$s">%3$s</ul>', ) ); ?>
-<img id="search-button" src="<?php bloginfo('template_directory'); ?>/search.png"> 
+<img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png"> 
    
 
 
@@ -36,6 +36,6 @@ class="%2$s">%3$s</ul>', ) ); ?>
     <li><a href="#">Contact</a></li>
 </ul>
 -->
-</div>	
+
 	</header>
-	<div id="content">
+	
