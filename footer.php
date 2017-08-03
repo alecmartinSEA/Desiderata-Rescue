@@ -7,6 +7,7 @@
 		<img class="partners" src="<?php bloginfo('template_directory'); ?>/images/fred_meyer.png">
         <img class="partners" id="last" src="<?php bloginfo('template_directory'); ?>/images/badge.png">
         </div>
+        <div class="footerdown">
 		<div id="left">
             <h3>Desiderate Rescue</h3>
 			<p>Sign up for news from Desiderata Rescue</p>
@@ -20,11 +21,12 @@
         <p>Phone:206.777.7777</p>
         <p>desideratarescue@gmail.com</p>
 		</div>
-		</div>
+		
         <div class="footerbottom">
 		<p>&copy All Rights Reserved to Desiderata Rescue</p>
         <small>front-page.php</small>
         </div>
+    </div>
 	
 
 </body>

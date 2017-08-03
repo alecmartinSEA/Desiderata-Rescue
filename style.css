@@ -21,6 +21,18 @@ header div {
 	clear: both;
 }
 
+h3{
+  color:#444444;      
+}
+
+h4{
+    color:white;
+}
+
+p{
+  color:#515151;
+}
+
 #logo {
 	float: left;
 	margin-top: 50px;
@@ -115,11 +127,12 @@ header div {
 	margin-left: 400px;
 }
 
+
 #nav-left {
-  /*float: right;*/
+  float: right;
   text-align: justify;
   max-width: 100%;
-  overflow: hidden;/* prevents the great collapse */
+  overflow: hidden;
   padding: 10px 0;
   margin-left: 50px;
   margin-right: 135px;
@@ -128,8 +141,9 @@ header div {
 
 
 
-/* overwrites existing margins */
+
 }
+
 
 
 
@@ -142,7 +156,7 @@ ul {
 
 li {
     display: inline-block;
-}
+} 
 
 
 /*#logo {
@@ -150,8 +164,8 @@ li {
   left: 50%;
   margin: -48px 0px 0px -108px;
   -top: 90px;
-}
-*/
+}*/
+
 .left-content {
     float: left;
     width: 520px;
@@ -184,7 +198,11 @@ li {
 }
 
 .footertop{
-
+    clear:both;
+    text-align: center;
+    line-height: 800%; 
+    display: block;
+    border-top: 2px dotted black;   
     text-align: center;
     line-height: 800%;
 
@@ -192,5 +210,94 @@ li {
 
 .footerbottom{
     text-align: center;
-    border-top: 2px dotted black;
+    
+
+
+}
+
+div.footerdown{
+    background-color: #9B7185;
+    padding-top:30px;
+}
+
+.mainadopt{    
+    width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.adopttop{
+    clear: both;
+    display: block; 
+    text-align: center;
+    line-height: 200%;   
+    padding-bottom: 30px; 
+    
+}
+
+.adoptpic{  
+    float:left;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    
+}
+
+.adoptcatpic{    
+    float:right;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+.adoptcatword{
+    float:left;    
+    max-width: 30%;
+    line-height: 200%;
+    text-align: center;
+    display: inline;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+
+.adoptword{
+    float:right;  
+    max-width: 30%;
+    line-height: 200%;
+    text-align: center;
+    display: inline;
+     padding-top: 40px;
+    margin-right: 20px;
+}
+
+.dogsection{   
+    clear:both;     
+}
+
+.catsection{
+    clear:both;     
+}
+
+img.adopttoppic{  
+    padding-top: 20px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+img.adoptdog{
+    max-width: 540px;
+    max-height: 250px;
+}
+
+button.buttonclick {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    border: 1px;
+    text-align:center;   
+    font-size:15px;
+    background-color: #A36E86;
+    color:white;      
+   
 }
