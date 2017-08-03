@@ -12,7 +12,7 @@
 		<ul id="nav-left">
 			<li><a href="#">About</a></li>
    			 <li><a href="#">Adopt</a>
-        		<!--<ul class="sub-navigation">
+        		<ul class="sub-navigation">
             <li><a href="#">Dogs</a></li>
             <li><a href="#">Cats</a></li>
         </ul> 
