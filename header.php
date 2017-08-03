@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 </head>
 <body>
-	<header>
-		
-		
-	
+    <header>
+        
+        
+    
         <!--
-		<ul id="nav-left">
-			<li><a href="#">About</a></li>
-   			 <li><a href="#">Adopt</a>
-        		<ul class="sub-navigation">
+        <ul id="nav-left">
+            <li><a href="#">About</a></li>
+             <li><a href="#">Adopt</a>
+                <!--<ul class="sub-navigation">
             <li><a href="#">Dogs</a></li>
             <li><a href="#">Cats</a></li>
         </ul> 
     </li>
-   		 
+         
     <li><a href="#">Foster</a></li>
 </ul>-->
 <img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png">
@@ -37,5 +37,5 @@ class="%2$s">%3$s</ul>', ) ); ?>
 </ul>
 -->
 
-	</header>
+</header>
 	
