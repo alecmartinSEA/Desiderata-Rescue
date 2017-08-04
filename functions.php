@@ -23,6 +23,23 @@ register_nav_menus(
 );
 //
 
+//widget
+if (function_exists("register_sidebar")) {
+register_sidebar();
+}
+
+function wpb_widgets_init() {
+	register_sidebar( array(
+		'name'          => 'Custom Header Widget Area',
+		'id'            => 'custom-header-widget',
+		'before_widget' => '<div class="chw-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="chw-title">',
+		'after_title'   => '</h2>',
+	    ) );
+	}
+	add_action( 'widgets_init', 'wpb_widgets_init' );
+
 
 
 
@@ -31,3 +48,4 @@ register_nav_menus(
 add_theme_support('post-thumbnails');
 //
 ?>
+

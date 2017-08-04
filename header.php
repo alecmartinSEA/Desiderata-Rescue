@@ -27,6 +27,15 @@
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="%2$s">%3$s</ul>', ) ); ?>
 <img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
+<?php
+
+if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
+    <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
+    <?php dynamic_sidebar( 'custom-header-widget' ); ?>
+    </div>
+    
+<?php endif; ?>
+
 
 
 

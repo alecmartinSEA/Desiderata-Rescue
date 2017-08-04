@@ -40,6 +40,11 @@ p{
 	width: 140px;
 }
 
+#header-widget-area {
+  float: right;
+  width: 140px;
+}
+
 #search-button {
 	float: right;
 	width: 30px;
@@ -51,6 +56,7 @@ p{
 	margin: 0 auto;
 	padding: 0 20px;
 	border-bottom: 2px dotted black;
+  clear: both;
 
 
 }
@@ -232,7 +238,7 @@ div.footerdown{
     text-align: center;
     line-height: 200%;   
     padding-bottom: 30px; 
-    
+    border-bottom: dotted 1px black;
 }
 
 .adoptpic{  
@@ -301,3 +307,4 @@ button.buttonclick {
     color:white;      
    
 }
+
