@@ -15,9 +15,9 @@
 		</div>
 		<div id="right">
 		<p>From unwanted to love?</p>	
-		<img class="icon" src="<?php bloginfo('template_directory'); ?>/images/dog.png">
-		<img class="icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.png">
-        <img class="icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.png">
+		<a href="#"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/dog.png"></a>
+		<a href="https://urlgeni.us/instagram/Y3KR"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.png"></a>
+        <a href="https://urlgeni.us/facebook/fX4c"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.png"></a>
         <p>Phone:206.777.7777</p>
         <p>desideratarescue@gmail.com</p>
 		</div>
