@@ -1,0 +1,310 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: url('bg-12col.png') center repeat-y;
+	font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+header {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+	height: 300px;
+}
+
+header div {
+	clear: both;
+}
+
+h3{
+  color:#444444;      
+}
+
+h4{
+    color:white;
+}
+
+p{
+  color:#515151;
+}
+
+#logo {
+	float: left;
+	margin-top: 50px;
+	margin-right: 10px;
+	width: 140px;
+}
+
+#header-widget-area {
+  float: right;
+  width: 140px;
+}
+
+#search-button {
+	float: right;
+	width: 30px;
+	margin-top: 198px;
+}
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+	border-bottom: 2px dotted black;
+  clear: both;
+
+
+}
+
+.slider {
+	max-width: 940px;
+}
+
+#content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+
+}
+
+#footer p {
+	clear: both;
+}
+
+#left {
+	float: left;
+	width: 485px;
+}
+
+#right {
+	float: right;
+	width: 220px;
+}
+
+.square {
+	float: left;
+	display:inline;
+	margin-right: 20px;
+	width: 300px;
+	margin-top: 15px;
+	text-align: center;
+
+	}
+
+.square h3, .square p {
+	text-align: center;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#last {
+	margin-right:0px;
+
+}
+
+.last {
+	margin-right: 0;
+}
+
+#nav-left:after {
+    content: '';
+    display: inline-block;
+
+	margin-left: 400px;
+}
+
+
+#nav-left {
+  float: right;
+  text-align: justify;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  margin-left: 50px;
+  margin-right: 135px;
+  position: absolute;
+  margin-top: 195px;
+
+
+
+
+}
+
+
+
+
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+} 
+
+
+/*#logo {
+  position: absolute;
+  left: 50%;
+  margin: -48px 0px 0px -108px;
+  -top: 90px;
+}*/
+
+.left-content {
+    float: left;
+    width: 520px;
+   }
+.right-content {
+    float: right;
+    width: 380px;
+}
+#clear {
+	clear: both;
+}
+
+.squareone {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+
+
+
+
+.partners{
+    max-width: 200px;
+}
+
+.icon{
+    max-width: 60px;
+}
+
+.footertop{
+    clear:both;
+    text-align: center;
+    line-height: 800%; 
+    display: block;
+    border-top: 2px dotted black;   
+    text-align: center;
+    line-height: 800%;
+
+}
+
+.footerbottom{
+    text-align: center;
+    
+
+
+}
+
+div.footerdown{
+    background-color: #9B7185;
+    padding-top:30px;
+}
+
+.mainadopt{    
+    width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.adopttop{
+    clear: both;
+    display: block; 
+    text-align: center;
+    line-height: 200%;   
+    padding-bottom: 30px; 
+    border-bottom: dotted 1px black;
+}
+
+.adoptpic{  
+    float:left;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    
+}
+
+.adoptcatpic{    
+    float:right;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+.adoptcatword{
+    float:left;    
+    max-width: 30%;
+    line-height: 200%;
+    text-align: center;
+    display: inline;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+
+.adoptword{
+    float:right;  
+    max-width: 30%;
+    line-height: 200%;
+    text-align: center;
+    display: inline;
+     padding-top: 40px;
+    margin-right: 20px;
+}
+
+.dogsection{   
+    clear:both;     
+}
+
+.catsection{
+    clear:both;     
+}
+
+img.adopttoppic{  
+    padding-top: 20px;
+    max-width: 300px;
+    max-height: 250px;
+}
+
+img.adoptdog{
+    max-width: 540px;
+    max-height: 250px;
+}
+
+button.buttonclick {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    border: 1px;
+    text-align:center;   
+    font-size:15px;
+    background-color: #A36E86;
+    color:white;      
+   
+}
+
