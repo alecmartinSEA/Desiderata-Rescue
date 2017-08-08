@@ -5,12 +5,14 @@
 <div class="adopttop">
 <h3>Desiderata Foster</h3>
 <img class="adopttoppic" src="<?php bloginfo('template_directory'); ?>/images/adop_1.png">
-<p>your pet brings you so much happiness and joy. </br>
-your gift will help us complete the shelfter and make pet adoption </br>
+<p>your pet brings you so much happiness and joy. </p>
+<p>your gift will help us complete the shelfter and make pet adoption
 possible for familes just like yours.</p>
-<button class="buttonclick" type="button" onclick="location.href='http://google.com';">Dowload Foster Form</button>       
+ <div class="button1">
+<button class="buttonclick1" type="button" onclick="location.href='http://google.com';">Dowload Foster Form</button>      
 </div>
-    
+
+
 <div class="adoptmiddle">
 
 <h2>Be a Foster Parent</h2>
