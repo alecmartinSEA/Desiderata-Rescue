@@ -6,7 +6,9 @@
 <img class="adopttoppic" src="<?php bloginfo('template_directory'); ?>/images/adop_1.png">
 <p>Your pet brings you so much happiness and joy. </p>
 <p>Your gift will help us complete the shelter and make pet adoption possible for families just like yours.</p>
-<button class="buttonclick" type="button" onclick="location.href='http://google.com';">Dowload Adoption Form</button>      
+    <div class="button1">
+<button class="buttonclick1" type="button" onclick="location.href='http://google.com';">Dowload Adoption Form</button>  
+        </div>
 </div>
     
 <div class="adoptmiddle">
@@ -18,7 +20,7 @@
 <div class="adoptword">
 <h3>Dogs</h3> 
 <p>Lorem ipsum dolor sit amet, eam intellegam ne. Lorem ipsum dolor sit amet, eam intellegam ne.</p>   
- <button class="buttonclick" type="button" onclick="location.href='http://google.com';">Woof Woof</button>      
+ <button class="buttonclick2" type="button" onclick="location.href='http://google.com';">Woof Woof</button>      
 </div>  
 </div>
 
@@ -26,7 +28,7 @@
 <div class="adoptcatword">
 <h3>Cats</h3> 
 <p>Lorem ipsum dolor sit amet, eam intellegam ne. Lorem ipsum dolor sit amet, eam intellegam ne.</p>
-<button class="buttonclick" type="button" onclick="location.href='http://google.com';">Meow Meow</button>
+<button class="buttonclick2" type="button" onclick="location.href='http://google.com';">Meow Meow</button>
 </div>
     <div class="adoptcatpic">
 <img  class="adoptdog" src="<?php bloginfo('template_directory'); ?>/images/adop_cat.png">  
@@ -39,4 +41,3 @@
 </div>
 
 <?php get_footer(); ?>
-

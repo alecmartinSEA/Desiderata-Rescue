@@ -5,15 +5,12 @@
 body {
     background: url('bg-12col.png') center repeat-y;
 	font-family: 'Nunito Sans', sans-serif;
-
-
 }
 
 header {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
-
 	height: 300px;
 }
 
@@ -21,8 +18,14 @@ header div {
 	clear: both;
 }
 
-h3{
+
+h2{
   color:#444444;      
+}
+
+h3{
+   color:#444444;  
+    padding-top:40px;
 }
 
 h4{
@@ -81,8 +84,6 @@ p{
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
-
-
 }
 
 #footer p {
@@ -91,7 +92,7 @@ p{
 
 #left {
 	float: left;
-	width: 485px;
+	max-width: 485px;
 }
 
 #right {
@@ -145,9 +146,6 @@ p{
   position: absolute;
   margin-top: 195px;
 
-
-
-
 }
 
 
@@ -191,10 +189,6 @@ li {
     margin-top: 35px;
 }
 
-
-
-
-
 .partners{
     max-width: 200px;
 }
@@ -208,7 +202,7 @@ li {
     text-align: center;
     line-height: 800%; 
     display: block;
-    border-top: 2px dotted black;   
+   
     text-align: center;
     line-height: 800%;
 
@@ -227,18 +221,22 @@ div.footerdown{
 }
 
 .mainadopt{    
-    width: 940px;
+  width: 940px;
   margin: 0 auto;
   padding: 0 20px;
+border: solid 1px #B2B2B2;
+    overflow: hidden;
 }
 
 .adopttop{
     clear: both;
     display: block; 
     text-align: center;
-    line-height: 200%;   
+    line-height: 150%;   
     padding-bottom: 30px; 
-    border-bottom: dotted 1px black;
+    border-bottom: dotted 1px #B2B2B2;
+    
+   
 }
 
 .adoptpic{  
@@ -258,7 +256,7 @@ div.footerdown{
 
 .adoptcatword{
     float:left;    
-    max-width: 30%;
+    max-width: 35%;
     line-height: 200%;
     text-align: center;
     display: inline;
@@ -269,7 +267,7 @@ div.footerdown{
 
 .adoptword{
     float:right;  
-    max-width: 30%;
+    max-width: 35%;
     line-height: 200%;
     text-align: center;
     display: inline;
@@ -282,13 +280,15 @@ div.footerdown{
 }
 
 .catsection{
-    clear:both;     
+  clear:both;
+  border-top: dotted 1px #B2B2B2;  
 }
 
 img.adopttoppic{  
     padding-top: 20px;
     max-width: 300px;
     max-height: 250px;
+ 
 }
 
 img.adoptdog{
@@ -296,15 +296,51 @@ img.adoptdog{
     max-height: 250px;
 }
 
-button.buttonclick {
+button.buttonclick1 {
     position: relative;
-    width: 220px;
-    height: 60px;
+    width: 311px;
+    height: 43px;
     border: 1px;
     text-align:center;   
     font-size:15px;
     background-color: #A36E86;
     color:white;      
+}
+
+button.buttonclick2 {
+    position: relative;
+    width: 311px;
+    height: 43px;
+    border: 1px;
+    text-align:center;   
+    font-size:15px;
+    background-color: #A36E86;
+    color:white;      
+}
+
+.button1{
+    padding:50px;
+}
+
+img.donatetoppic{  
+    padding-top: 20px;
+    max-width: 300px;
+    max-height: 550px;
+}
+
+.donatetop{
+    clear: both;
+    display: block; 
+    text-align: center;
+    line-height:40px; 
+    padding-bottom: 40px; 
    
 }
 
+.donatemiddle{
+  width: 940px;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 18px;
+    border-top: dotted 1px #B2B2B2;   
+}
