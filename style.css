@@ -94,11 +94,31 @@ p{
 #left {
 	float: left;
 	max-width: 485px;
+  padding: 50px;
+  
+  
+}
+
+#left p {
+ color: #ffffff;
+  
+}
+
+#left h3 {
+  color: #ffffff;
+  padding-top:0px;
 }
 
 #right {
 	float: right;
 	width: 220px;
+  padding: 50px;
+  
+
+}
+
+#right p {
+  color: #ffffff;
 }
 
 .square {
@@ -112,6 +132,11 @@ p{
 	text-align: center;
 
 	}
+
+  .square:hover {
+    background-color: #B5B5B5;
+    opacity: .9;
+  }
 
 .square h3, .square p {
 	text-align: center;
@@ -242,9 +267,21 @@ li {
 
 }
 
+.footertop p {
+  font-family: 'Nunito Sans',
+  sans-serif;
+  font-size: 24px;
+  color: #636363;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .footerbottom{
     text-align: center;
-    
+    border-top: 1px dotted white;
+    clear: both;
+
+
 
 
 }
@@ -252,6 +289,14 @@ li {
 div.footerdown{
     background-color: #9B7185;
     padding-top:30px;
+    color: #FFFFFF;
+    
+}
+
+div.footerdown p{
+    color: #FFFFFF;
+   
+    
 }
 
 .mainadopt{    
@@ -259,7 +304,7 @@ div.footerdown{
   margin: 0 auto;
   padding: 0 20px;
 border: solid 1px #B2B2B2;
-    overflow: hidden;
+    clear:both;
 }
 
 .adopttop{
