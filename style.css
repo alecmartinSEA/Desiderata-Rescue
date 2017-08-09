@@ -423,3 +423,11 @@ img.donatetoppic{
   font-size: 18px;
     border-top: dotted 1px #B2B2B2;   
 }
+
+/*add footer style*/
+p.singupheader{
+    color:#FFFFFF;
+   padding-top: 18px;
+    font-size: 27px;
+    
+}
