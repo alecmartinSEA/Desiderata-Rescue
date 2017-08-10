@@ -9,11 +9,13 @@ body {
 }
 
 header {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 20px;
-	height: 300px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 300px;
+    overflow: hidden;
 }
+
 
 header div {
 	clear: both;
@@ -38,11 +40,11 @@ p{
 }
 
 #logo {
-	float: left;
-	margin-top: 50px;
-	margin-right: 10px;
-	width: 140px;
+    float: left;
+    margin: 50px 0;
+    width: 140px;
 }
+
 
 #header-widget-area {
   float: right;
@@ -51,8 +53,9 @@ p{
 
 #search-button {
 	float: right;
-	
-	margin-top: 187px;
+	width: 4%;
+	margin-top: 195px;
+    
 }
 
 #content {
@@ -181,18 +184,15 @@ p{
 
 
 #nav-left {
-  float: right;
-  text-align: justify;
-  max-width: 48%;
-  width:100%;
-  padding: 10px 0;
-  margin-left: 9px;
-  margin-right: 135px;
-  position: absolute;
-  margin-top: 195px;
-
-
+    float: left;
+    margin-top: 205px;
+    width: 650px;
+    margin-left: 10%;
+    margin-right: 135px;
+    position: absolute;
+    margin-top: 195px;
 }
+
 
 /* Sub Menus */
   #nav-left li ul {
@@ -219,7 +219,10 @@ ul {
 
 li {
     display: inline-block;
-} 
+    text-align: center;
+    padding: 0 20px;
+}
+
 
 
 /*#logo {
