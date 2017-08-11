@@ -17,9 +17,7 @@ header {
 }
 
 
-header div {
-	clear: both;
-}
+
 
 
 h2{
@@ -48,7 +46,7 @@ p{
 
 #header-widget-area {
   float: right;
-  width: 140px;
+  margin-top: 230px;
 }
 
 #search-button {
@@ -56,6 +54,10 @@ p{
 	width: 4%;
 	margin-top: 195px;
     
+}
+
+.show-search {
+  display: none;
 }
 
 #content {

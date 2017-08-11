@@ -12,7 +12,6 @@ Version: 1.0
 /*register_nav_menus(array('main-menu'=>__('Main Menu')));
 
 register_nav_menus(array('maintwo-menu'=>__('Maintwo Menu'))); */
-
 // Register My Menus
 register_nav_menus(
     array(
@@ -22,6 +21,17 @@ register_nav_menus(
     )
 );
 //
+
+
+
+add_action( 'wp_enqueue_scripts', 'add_my_script' );
+function add_my_script() {
+    wp_enqueue_script(
+        'your-script', // name your script so that you can attach other scripts and de-register, etc.
+        get_template_directory_uri() . '/js/javascript.js', // this is the location of your script file
+        array('jquery') // this array lists the scripts upon which your script depends
+    );
+}
 
 //widget
 if (function_exists("register_sidebar")) {
@@ -46,6 +56,4 @@ function wpb_widgets_init() {
 
 //Add Support for post thumbnails & featured images
 add_theme_support('post-thumbnails');
-//
 ?>
-
