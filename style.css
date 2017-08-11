@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 0 20px;
     height: 275px;
@@ -37,6 +37,11 @@ p{
   color:#515151;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #logo {
     float: left;
     margin: 50px 0;
@@ -61,7 +66,7 @@ p{
 }
 
 #content {
-	width: 940px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 	border-bottom: 2px dotted black;
@@ -130,13 +135,14 @@ p{
 	float: left;
 	display:inline;
 	
-	width: 300px;
+	width: 31.2%;
   margin: 80px 0;
   margin-right: 20px;
 	margin-top: 15px;
 	text-align: center;
 
 	}
+
 
   .square:hover {
     background-color: #B5B5B5;
