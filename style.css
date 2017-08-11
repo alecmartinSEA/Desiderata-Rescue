@@ -12,7 +12,7 @@ header {
     width: 940px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 300px;
+    height: 275px;
     overflow: hidden;
 }
 
@@ -169,7 +169,7 @@ p{
 }
 
 #last {
-	margin-right:0px;
+	margin: 15px 0px;
 
 }
 
@@ -475,3 +475,69 @@ p.singupheader{
     font-size: 27px;
     
 }
+
+/* Slider */
+.slideImage{
+position: relative;   
+margin: 20px auto;
+}
+.slideImage img {
+    width: 100%;
+    height: 550px;
+}
+
+.slideImage .inner_box{
+  position:absolute;
+/*  background:rgba(255,255,255,0.6);
+  padding: 4%;*/
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.
+.slideImage .inner_box h1{   
+   
+   font-size: 2.5em;
+   font-weight: 300;
+ 
+}
+.slideImage .inner_box .button{
+   font-family: 'sinkin_sans100_thin', sans-serif, sans-serif, ariel;
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    float: left;
+    padding: 10px 15px;
+    margin-top:120px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button a:active {
+  color:white;
+}
+.button a:visited{
+  color:white;
+}
+
+.inner_box h1 {
+  color: white;
+}
+.inner_box p {
+  color: white;
+}
+
+.inner_box .button a:active {
+  color: white;
+}
+
+.button {
+  border: 1px solid white;
+}
+
+.button a:active {
+  color: white;
+}
+
+.mySlides {display:none}
