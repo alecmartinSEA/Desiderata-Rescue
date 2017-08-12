@@ -38,7 +38,6 @@ h4{
 
 p{
   color:#515151;
-    font-size: 1.1em;
 }
 
 #logo {
@@ -176,10 +175,11 @@ li {
 
 
 
+
 .mainadopt{
 	width: 70%;
-  margin: 0 auto;
-  padding: 100px;
+  	margin: 0 auto;
+  	padding: 100px;
 	border: solid 1px #B2B2B2;
 	padding-bottom: 0;
 	overflow:hidden;
@@ -256,30 +256,31 @@ button{
 button.buttonclick1{
 	margin-top: 100px;
 }
-
+button.donatebut{
+	margin-top:0;
+}
 
 img.donatetoppic{
-    padding-top: 20px;
-    max-width: 300px;
-    max-height: 550px;
+	width: 700px;
+    max-width: 100%;
+	height: 100%;
+    margin: 50px auto;
 }
 
 .donatetop{
-    clear: both;
-    display: block;
     text-align: center;
-    line-height:40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 
 }
 
 .donatemiddle{
-  width: 940px;
-  margin: 0 auto;
-  line-height: 30px;
-  font-size: 18px;
+  	margin: 0 auto;
+  	width: 90%;
+  	line-height: 2em;
     border-top: dotted 1px #B2B2B2;
+	height: 100%;
 }
+
 
 
 /*-----------------------add footer style-------------------*/
@@ -478,6 +479,12 @@ p.small {
     
 }
 
+.donatemiddle p {
+	margin-top: 50px;
+	text-align: justify;
+
+}
+
 @media screen  and (min-width: 300px)  and (max-width:1300px){
 	.sec{
 		height: 100%;
@@ -493,11 +500,9 @@ p.small {
 		margin-left: -250px;
 	}
 	.adoptpic{float:none;}
-    
 	.adoptword{
 		max-width: 100%;
 	}
-    
 	.adoptcatword{
 		float:none;
 		margin:0 auto;
@@ -508,7 +513,11 @@ p.small {
     width: 60%;
     margin: 0 auto;
 	}
+	.donatemiddle p {
+		margin-top: 50px;
+		width: 90%;
+		text-align: justify;
+	}
 
 
 }
-
