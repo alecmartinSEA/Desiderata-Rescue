@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 <body>
     <header>

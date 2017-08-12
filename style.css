@@ -37,6 +37,7 @@ h4{
 
 p{
   color:#515151;
+    font-size: 1.1em;
 }
 
 #logo {
@@ -85,7 +86,8 @@ p{
 }
 
 #footer {
-	width: 940px;
+	/*width: 940px;*/
+    width:100%;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -112,13 +114,7 @@ p{
   padding-top:0px;
 }
 
-#right {
-	float: right;
-	width: 220px;
-  padding: 50px;
-  
 
-}
 
 #right p {
   color: #ffffff;
@@ -256,7 +252,8 @@ li {
 }
 
 .icon{
-    max-width: 60px;
+    max-width: 15%;
+    padding:1%;
 }
 
 .footertop{
@@ -428,9 +425,69 @@ img.donatetoppic{
 }
 
 /*add footer style*/
-p.singupheader{
+h4.singupheader{
+    font-family: 'Arvo',serif;
     color:#FFFFFF;
-   padding-top: 18px;
-    font-size: 27px;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+    
+}
+
+p.signup{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+#cover{
+    clear:both;
+    /*background-color: aqua;*/
+    width:75%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+p.follow {
+    text-align: left;
+    padding-left: 25%;
+ 
+}
+
+p.small {
+    padding-top: 2%;
+    font-size: .7em;
+}
+
+#right {
+	float: right;
+	/*width: 220px;*/
+    width:40%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+/*phone version*/
+
+@media screen  and (max-width:768px){
+    body{background-color: aquamarine;}
+     #right {
+	float: left;
+	/*width: 220px;*/
+    width:80%;
+    padding-top: 2%;         
+
+    }
+    p.follow {
+    text-align: center;
+ 
+}
+    div.iconbox{
+    /*max-width: 15%;*/
+    padding-left: 25%;
+        
+}
+   
+    
+    #mc_embed_signup{width:120%; padding-right:1%; }
+   
     
 }

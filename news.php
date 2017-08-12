@@ -8,7 +8,7 @@
 <p>your pet brings you so much happiness and joy. </p>
 <p>your gift will help us complete the shelfter and make pet adoption
 possible for familes just like yours.</p>
- <div class="button1">
+<div class="button1">
 <button class="buttonclick1" type="button" onclick="location.href='http://google.com';">Dowload Foster Form</button>  
 </div>
 
