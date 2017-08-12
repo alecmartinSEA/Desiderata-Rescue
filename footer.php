@@ -11,70 +11,7 @@
     <div id="cover">
 <!-- style the form-->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-  <style type="text/css" >  
-      
-#mc_embed_signup{background:#9B7185; color:#FFFFFF;clear:left; width:80%; padding-right:15%; }
-
-#mc-embedded-subscribe-form{ background-color: red; width:60%;float:left;padding-left: 50px; color:#FFFFFF;}
- 
-#mc_embed_signup form { width:60%;text-align: left; padding:0px; color:#FFFFFF;}
-    
-#mc_embed_signup input.email {
-    /*font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;*/
-    font-size: .8em;
-    border: 1px solid #ffffff;
-    margin-top: 5%;
-    /*-webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;*/
-    color: #ffffff;
-    background-color: #9B7185;
-    /*box-sizing: border-box;*/
-    height: 2.9em;
-    padding: 0px 0.4em;
-    display: inline-block;
-    margin: 0;
-    width: 75%;
-    vertical-align: top;
-}
-      
-/*
-      #mc_embed_signup input.email.placeholder{
-          color: white;
-      }
-*/
-      
-      #mc_embed_signup input.email[placeholder]{color:red !important;}   
-      
-      
-    /*
-#mc_embed_signup label {
-    display: block;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}*/
-
-#mc_embed_signup .button {
-    font-size: 13px;
-    border: none;
-    /*
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;*/
-    letter-spacing: .03em;
-    color: #636363;
-    background-color: #E0E0E0;
-    box-sizing: border-box;
-    height: 2.7em;
-    /*line-height: 2.5em;*/
-    padding: 0 5px;
-    display: inline-block;
-    margin: 0;
-    transition: all 0.23s ease-in-out 0s;
-    width:100%;
-}
-</style>
+  
 <!--end style form-->
     
     
@@ -106,38 +43,15 @@
         <p class="follow">desideratarescue@gmail.com</p>
 		</div>
 		
-        <div class="footerbottom">
+     <div class="footerbottom">
 
 		<p class="small">&copy All Rights Reserved to Desiderata Rescue</p>
         </div><!--end footerbottom-->
     </div><!--end cover-->
 
-		
-    </div>
-    <script>
-    var slideIndex = 1;
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-    function timeSlides() {
-        window.setInterval("plusSlides(1)", 5000);
-    }
-    function showSlides(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        x[slideIndex-1].style.display = "block";
-    }
-    showSlides(slideIndex);
-    timeSlides();
-</script>
+	   	
+    
+    
 
 	
         </div><!--end footer down-->

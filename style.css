@@ -9,10 +9,6 @@ body {
 }
 
 header {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 20px;
-
 
 
 
@@ -23,6 +19,7 @@ header {
     overflow: hidden;
 
 }
+
 header div {
 	clear: both;
 }
@@ -341,7 +338,7 @@ img.donatetoppic{
     border-top: dotted 1px #B2B2B2;
 	height: 100%;
 }
-<<<<<<< HEAD
+
 
 
 
@@ -427,7 +424,7 @@ p.small {
 
 /*phone version*/
 
-@media screen  and (max-width:768px){
+@media screen  and (max-width:768px) {
     body{background-color: aquamarine;}
      #right {
 	float: left;
@@ -446,15 +443,19 @@ p.small {
         
 }
    
-    
-    #mc_embed_signup{width:120%; padding-right:1%; }
-   
-    
-.donatemiddle p {
-	margin-top: 50px;
-	text-align: justify;
+    .donatemiddle p {
+  margin-top: 50px;
+  text-align: justify;
 
 }
+    #mc_embed_signup{width:120%; padding-right:1%; }
+}
+
+
+    
+
+
+
 
 @media screen  and (min-width: 300px)  and (max-width:1300px){
 	.sec{
@@ -489,4 +490,4 @@ p.small {
 		width: 90%;
 		text-align: justify;
 	}
-
+}
