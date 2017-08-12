@@ -8,8 +8,13 @@ body {
 	font-size: 1.1em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
-	width: 940px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 
@@ -59,7 +64,7 @@ p{
 }
 
 #content {
-	width: 940px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 	border-bottom: 2px dotted black;
@@ -328,7 +333,7 @@ margin: 20px auto;
 
 #footer {
 	/*width: 940px;*/
-    width:100%;
+    max-width:100%;
 	margin: 0 auto;
 	/*padding: 0 20px;*/
 }
