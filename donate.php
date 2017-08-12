@@ -1,33 +1,15 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @ka0191
- Sign out
- Watch 2
-  Star 0
-  Fork 0 alecmartinSEA/Desiderata-Rescue
- Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights
-Branch: master Find file Copy pathDesiderata-Rescue/donate.php
-23778a4  4 days ago
- nataliewang919 adopt and donate page style
-0 contributors
-RawBlameHistory
-Executable File  46 lines (39 sloc)  3.71 KB
+
 <?php /* Template Name: donate */ ?>
 <?php get_header(); ?>
 
 <div class="mainadopt">
 
-    <div id="div-<?php the_ID(); ?>" class="donatetop">
+   <div class="adopttop">
     <h3>Anything helps . .❤</h3>
     <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/donate.png" /> </br>
     <button class="buttonclick1 donatebut" type="button" onclick="location.href='http://google.com';">Donate through PAYPAL</button>
-    </div>
-    <?php endwhile; endif; ?>
+</div>
+   
 
     <div class="donatemiddle sec">
     <h3>Help us to save lives!</h3>
@@ -41,5 +23,3 @@ Executable File  46 lines (39 sloc)  3.71 KB
 
 
 <?php get_footer(); ?>
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

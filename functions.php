@@ -25,7 +25,7 @@ register_nav_menus(
 
 
 
-
+/*
 
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
 function add_my_script() {
@@ -62,4 +62,4 @@ function wpb_widgets_init() {
 add_theme_support('post-thumbnails');
 
 
-?>
+?>*/
