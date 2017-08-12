@@ -16,7 +16,11 @@
 
     <div class="sec">
         <div class="adoptpic">
+
         <img class="adoptdog" src="<?php bloginfo('template_directory'); ?>/images/adop_dog.png">
+
+          
+
         </div>
         <div class="adoptword">
             <h3>Dogs</h3>
@@ -32,7 +36,10 @@
         <button class="buttonclick2" type="button" onclick="location.href='http://google.com';">Meow Meow</button>
         </div>
             <div class="adoptcatpic">
+
         <img  class="adoptdog" src="<?php bloginfo('template_directory'); ?>/images/adop_cat.png">
+
+
         </div>
     </div>
 
