@@ -152,13 +152,14 @@ p{
 #nav-left {
   float: right;
   text-align: justify;
-  max-width: 100%;
+  width: 47%;
   overflow: hidden;
   padding: 10px 0;
   margin-left: 50px;
   margin-right: 135px;
   position: absolute;
   margin-top: 195px;
+
 
 }
 
