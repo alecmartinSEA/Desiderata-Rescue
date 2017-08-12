@@ -22,7 +22,7 @@ register_nav_menus(
 );
 //
 
-/*
+
 
 
 
@@ -35,6 +35,7 @@ function add_my_script() {
         array('jquery') // this array lists the scripts upon which your script depends
     );
 }
+
 
 
 if (function_exists("register_sidebar")) {
@@ -59,11 +60,6 @@ function wpb_widgets_init() {
 
 //Add Support for post thumbnails & featured images
 add_theme_support('post-thumbnails');
-<<<<<<< HEAD
-//
-?>
 
-*/
 
 ?>
-

@@ -50,9 +50,14 @@
     </div><!--end cover-->
 
 	   	
-    </div>
-    <script>
-    var slideIndex = 1;
+    
+    
+
+	
+        </div><!--end footer down-->
+        <!--start script for slider -->
+        <script>
+        var slideIndex = 1;
     function plusSlides(n) {
         showSlides(slideIndex += n);
     }
@@ -75,9 +80,6 @@
     showSlides(slideIndex);
     timeSlides();
 </script>
-
-	
-        </div><!--end footer down-->
 </div><!--end footer-->
 </body>
 </html>
