@@ -22,6 +22,9 @@ register_nav_menus(
 );
 //
 
+/*
+
+
 
 
 add_action( 'wp_enqueue_scripts', 'add_my_script' );
@@ -33,7 +36,7 @@ function add_my_script() {
     );
 }
 
-//widget
+
 if (function_exists("register_sidebar")) {
 register_sidebar();
 }
@@ -56,4 +59,11 @@ function wpb_widgets_init() {
 
 //Add Support for post thumbnails & featured images
 add_theme_support('post-thumbnails');
+<<<<<<< HEAD
+//
 ?>
+
+*/
+
+?>
+
