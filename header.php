@@ -27,11 +27,12 @@
 
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="%2$s">%3$s</ul>', ) ); ?>
-<img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
-<?php
 
+<img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
+</div>
+<?php
 if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
-    <div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
+    <div id="header-widget-area" class="chw-widget-area widget-area show-search" role="complementary">
     <?php dynamic_sidebar( 'custom-header-widget' ); ?>
     </div>
     
@@ -49,5 +50,5 @@ if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
     <li><a href="#">Contact</a></li>
 </ul>
 -->
-
+<?php wp_head(); ?>
 </header>
