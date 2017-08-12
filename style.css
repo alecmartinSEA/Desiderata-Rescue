@@ -5,18 +5,16 @@
 body {
     background: url('bg-12col.png') center repeat-y;
 	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.1em;
 }
 
 header {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 275px;
-    overflow: hidden;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 20px;
 
+	height: 300px;
 }
-
-
 
 header div {
 	clear: both;
@@ -42,11 +40,6 @@ p{
   color:#515151;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 #logo {
 	float: left;
 	margin-top: 50px;
@@ -66,7 +59,7 @@ img {
 }
 
 #content {
-	max-width: 940px;
+	width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 	border-bottom: 2px dotted black;
@@ -116,26 +109,12 @@ img {
 .square {
 	float: left;
 	display:inline;
-<<<<<<< HEAD
-	
-	width: 31.2%;
-  margin: 80px 0;
-  margin-right: 20px;
-
-	
-
+	margin-right: 20px;
+	width: 300px;
 	margin-top: 15px;
 	text-align: center;
 
 	}
-
-
-
-  .square:hover {
-    background-color: #B5B5B5;
-    opacity: .9;
-  }
-
 
 .square h3, .square p {
 	text-align: center;
@@ -300,13 +279,16 @@ p.txt_top {width:60%;margin: 0 auto;}
 	height: 300px;
     padding: 100px 0;
 	width: 950px;
+	max-width: 100%;
 	margin: 0 auto;
-	    text-align: center;
+	text-align: center;
 }
 
 img.adopttoppic{
-	max-width: 700px;
-    margin-bottom: 50px;
+	width: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 
@@ -347,4 +329,36 @@ img.donatetoppic{
   line-height: 30px;
   font-size: 18px;
     border-top: dotted 1px #B2B2B2;
+}
+
+@media screen  and (min-width: 300px)  and (max-width:1300px){
+	.sec{
+		height: 100%;
+	}
+	.cat_responsive{
+		padding-top:50px;
+		position:relative;
+		border-top: 1px dotted #B2B2B2;
+	}
+	.cat_responsive .adoptdog{
+		position: absolute;
+		top:80px;
+		margin-left: -250px;
+	}
+	.adoptpic{float:none;}
+	.adoptword{
+		max-width: 100%;
+	}
+	.adoptcatword{
+		float:none;
+		margin:0 auto;
+		padding-top: 310px;
+		max-width:100%;
+	}
+	.mainadopt p {
+    width: 60%;
+    margin: 0 auto;
+	}
+
+
 }
