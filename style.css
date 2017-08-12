@@ -281,6 +281,41 @@ img.donatetoppic{
 	height: 100%;
 }
 
+/* -- slider -- */
+.slideImage{
+position: relative;   
+margin: 20px auto;
+}
+.slideImage img {
+    width: 100%;
+}
+
+.slideImage .inner_box{
+  position:absolute;
+/*  background:rgba(255,255,255,0.6);
+  padding: 4%;*/
+  top:46%;
+  left:20%;
+  transform:translate(-50%,-50%);
+}
+.slideImage .inner_box h1{   
+   font-size: 2.5em;
+   font-weight: 300;
+   color:#000000;
+}
+.slideImage .inner_box .button{
+   font-family: 'sinkin_sans100_thin', sans-serif, sans-serif, ariel;
+    background-color: #F47D48;
+    font-size: 1em;
+    font-weight: 800;
+    float: left;
+    padding: 10px 15px;
+    margin-top:120px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mySlides {display:none}
 
 
 /*-----------------------add footer style-------------------*/
