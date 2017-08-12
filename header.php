@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+   <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
     <header>
@@ -23,7 +24,7 @@
 
     <li><a href="#">Foster</a></li>
 </ul>-->
-<img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png">
+<a href="#t"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png"></a>
 
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="%2$s">%3$s</ul>', ) ); ?>
