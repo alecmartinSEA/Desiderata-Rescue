@@ -22,7 +22,7 @@ register_nav_menus(
 );
 //
 
-/*
+
 
 
 
@@ -59,11 +59,6 @@ function wpb_widgets_init() {
 
 //Add Support for post thumbnails & featured images
 add_theme_support('post-thumbnails');
-<<<<<<< HEAD
-//
-?>
 
-*/
 
 ?>
-

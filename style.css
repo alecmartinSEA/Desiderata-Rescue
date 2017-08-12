@@ -15,7 +15,7 @@ header {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 400px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -59,8 +59,12 @@ p{
 
 #search-button {
 	float: right;
-	width: 30px;
+	width: 40px;
 	margin-top: 198px;
+}
+
+.show-search {
+  display: none;
 }
 
 #content {
@@ -406,9 +410,7 @@ img.donatetoppic{
 
 
 
-.show-search {
-  display: none;
-}
+
 
 .slideImage{
 position: relative;   
@@ -547,6 +549,6 @@ p.small {
 	}
 
 
-}
+
 
 
