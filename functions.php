@@ -37,6 +37,7 @@ function add_my_script() {
 }
 
 
+
 if (function_exists("register_sidebar")) {
 register_sidebar();
 }
