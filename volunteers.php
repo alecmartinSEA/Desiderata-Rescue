@@ -1,13 +1,13 @@
 
-<?php /* Template Name: news */ ?>
+<?php /* Template Name: donate */ ?>
 <?php get_header(); ?>
 
 <div class="mainadopt">
 
    <div class="adopttop">
-    <h3>News Page</h3>
+    <h3>Volunteers Page</h3>
     <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/donate.png" /> </br>
-    
+    <button class="buttonclick1 donatebut" type="button" onclick="location.href='http://google.com';">Donate through PAYPAL</button>
 </div>
    
 
