@@ -354,6 +354,13 @@ margin: 20px auto;
 
 }
 
+
+.donatemiddle p {
+	margin-top: 50px;
+	text-align: justify;
+
+}
+
 .mySlides {display:none}
 
 .inner_box .button a:link {
@@ -572,11 +579,6 @@ p.small {
 #mc_embed_signup{width:170%; padding-right:1%; }
    
     
-.donatemiddle p {
-	margin-top: 50px;
-	text-align: justify;
-
-}
 
 /* squares* */ 
 .square {
