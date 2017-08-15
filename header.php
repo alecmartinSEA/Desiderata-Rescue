@@ -30,6 +30,8 @@
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="hide">%3$s</ul>', ) ); ?>
 
+<a href="#"><span class="glyph">&#8801;</span>&nbsp;Menu</a>
+
 
 
 
@@ -40,7 +42,7 @@ class="hide">%3$s</ul>', ) ); ?>
 
 
 <img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
-</div>
+
 <?php
 if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>
     <div id="header-widget-area" class="chw-widget-area widget-area show-search" role="complementary">
