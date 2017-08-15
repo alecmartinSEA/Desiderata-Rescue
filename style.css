@@ -89,7 +89,7 @@ p{
 	float: left;
 	display:inline;
 	margin-right: 20px;
-	width: 300px;
+	width: 31%;
 	margin-top: 15px;
 	text-align: center;
 
@@ -207,12 +207,12 @@ li {
 
 
 .mainadopt{
-	width: 70%;
+  	width: 70%;
   	margin: 0 auto;
   	padding: 100px;
-	border: solid 1px #B2B2B2;
-	padding-bottom: 0;
-	overflow:hidden;
+	 border: solid 1px #B2B2B2;
+	 padding-bottom: 0;
+	 overflow:hidden;
 }
 .mainadopt p {
 	line-height: 2em;
@@ -311,6 +311,11 @@ img.donatetoppic{
 	height: 100%;
 }
 
+#content{
+  border-bottom: none !important;
+  margin-bottom: 100px;
+}
+
 /* -- slider -- */
 .slideImage{
 position: relative;   
@@ -335,7 +340,7 @@ margin: 20px auto;
   
 }
 
-.slideImage .inner_box pg{   
+.slideImage .inner_box p{   
   color: white;
    font-size: 1em;
    font-weight: 300;
@@ -593,7 +598,7 @@ p.small {
 }
 
 .slideImage .inner_box .button{
-        padding: 2% 5%;
+        padding: 1% 4%;
         margin-top:13%;
 }
     
@@ -652,7 +657,7 @@ p.small {
 }
 
 .slideImage .inner_box .button{
-        padding: 2% 5%;
+        padding: 1% 3%;
         margin-top:15%;
 }
 
