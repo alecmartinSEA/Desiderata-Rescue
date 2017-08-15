@@ -7,14 +7,19 @@
    <div class="adopttop">
     <h3>Foster Page</h3>
     <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/donate.png" /> </br>
-    <button class="buttonclick1 donatebut" type="button" onclick="location.href='http://google.com';">Donate through PAYPAL</button>
+    <button class="buttonclick1 donatebut" type="button" onclick="location.href='http://google.com';">Download Foster Form</button>
 </div>
    
 
     <div class="donatemiddle sec">
-    <h3>Help us to save lives!</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada elit ac neque mattis, ut sollicitu din lacus dapibus. Ut quis ligula in leo euismod sodales. Maecenas porttitor consequat erat sit amet por ttitor. Suspendisse tristique vestibulum molestie. Proin eu ex a lectus gravida porta et nec tortor. Proin porta leo a dolor dignissim tempus. Pellentesque vel sagittis neque. Sed non enim neque. Suspen disse id nisl hendrerit, fermentum purus a, molestie est. Donec mattis nisi vel erat condimentum, vel pre tium erat pellentesque. Nullam et convallis magna. Quisque eleifend maximus iaculis. Nulla vitae pelle ntesque risus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada elit ac neque mattis, ut sollicitu din lacus dapibus. Ut quis ligula in leo euismod sodales. Maecenas porttitor consequat erat sit amet por ttitor. Suspendisse tristique vestibulum molestie. Proin eu ex a lectus gravida porta et nec tortor. Proin porta leo a dolor dignissim tempus. Pellentesque vel sagittis neque. Sed non enim neque. Suspen disse id nisl hendrerit, fermentum purus a, molestie est. Donec mattis nisi vel erat condimentum, vel pre tium erat pellentesque. Nullam et convallis magna. Quisque eleifend maximus iaculis. Nulla vitae pelle ntesque risus.</p>
+    <h3>Foster</h3>
+    <p>Desiderata Rescue is desperately in need of fosters!  Please read the information below about fostering a Desiderata dog or cat, or email desiderataresuce@gmail.com with any questions. </p>
+    <p>Already know you want to foster? If you have already downloaded and read our foster application form, please email Miriam at desideratarescue@gmail.com and note your interest in fostering in the subject line. </p>
+    <p>Miriam will follow up with you by sending an official form via DocuSign for you to sign and return. </p>
+    <p>Becoming a foster parent is rewarding and easy!  All it takes is filling out an application and, if approved, a volunteer will visit your home for a brief home check to get to you know better. </p>
+    <p>Our goal is to match a foster animal with you and your lifestyle that will be mutually beneficial.  By taking an animal into your home on a temporary basis, the animal is given an opportunity to adjust to a home environment, and we are given additional time to find a permanent home.</p>
+    <p>Please read our complete FAQ if you have any questions about our process, our rescue or our animals. Or, see the Foster FAQ below for information that only pertains to fostering. </p>
+<p>If you still have questions, feel free to email us at desideratarescue@gmail.com. </p>
     </div>
 
 
