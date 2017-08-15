@@ -37,7 +37,7 @@ function add_my_script() {
 }
 
 
-
+/*
 if (function_exists("register_sidebar")) {
 register_sidebar();
 }
@@ -53,6 +53,8 @@ function wpb_widgets_init() {
         ) );
     }
     add_action( 'widgets_init', 'wpb_widgets_init' );
+*/
+
 
 add_theme_support('post-thumbnails');
 
