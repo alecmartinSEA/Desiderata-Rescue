@@ -20,7 +20,6 @@ header div {
 	clear: both;
 }
 
-
 h2{
   color:#444444;
 }
@@ -154,10 +153,6 @@ p{
 
 }
 
-
-
-
-
 ul {
     margin: 0;
     list-style: none;
@@ -240,9 +235,8 @@ div.footerdown{
 	width: 70%;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	color: black;
 }
-
-
 .adopttop{
     clear: both;
     display: block;
@@ -338,6 +332,22 @@ img.donatetoppic{
 	text-align: justify;
 }
 
+#about {
+	padding:0;
+	margin-bottom: 100px;
+	height: 100%;
+}
+#about ul {
+	line-height: 2em;
+	text-align: justify;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#about ul li {
+	list-style: disc !important;
+	display: default;
+}
 @media screen  and (min-width: 300px)  and (max-width:1300px){
 	.sec{
 		height: 100%;
@@ -368,6 +378,7 @@ img.donatetoppic{
 	line-height: 2em;
 	text-align: justify;
 	margin-bottom: 20px;
+	color: black;
 	}
 
 	p.txt {
