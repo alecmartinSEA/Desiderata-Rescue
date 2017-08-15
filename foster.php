@@ -6,8 +6,10 @@
 
    <div class="adopttop">
     <h3>Foster Page</h3>
-    <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/donate.png" /> </br>
-    <button class="buttonclick1 donatebut" type="button" onclick="location.href='http://google.com';">Download Foster Form</button>
+    <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/foster.png" /> </br>
+    <a href="<?php bloginfo('template_directory'); ?>/foster_contract.pdf" >
+    <button class="buttonclick1 donatebut" type="button">Download Foster Form</button>
+    </a>
 </div>
    
 
