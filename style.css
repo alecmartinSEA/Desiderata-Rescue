@@ -8,8 +8,13 @@ body {
 	font-size: 1.1em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
-	width: 940px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 
@@ -58,7 +63,7 @@ p{
 }
 
 #content {
-	width: 940px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 20px;
 	border-bottom: 2px dotted black;
@@ -109,7 +114,7 @@ p{
 	float: left;
 	display:inline;
 	margin-right: 20px;
-	width: 300px;
+	max-width: 300px;
 	margin-top: 15px;
 	text-align: center;
 
@@ -263,6 +268,7 @@ div.footerdown{
     text-align: center;
 	margin-left: 50px;
 }
+
 
 
 .adoptword{

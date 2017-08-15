@@ -25,11 +25,11 @@
     <li><a href="#">Foster</a></li>
 </ul>-->
 <a href="#"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png"></a>
-<div id="toggle">
+
 
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="hide">%3$s</ul>', ) ); ?>
-<a href="#"><span class="glyph">&#8801;</span>&nbsp;Menu</>
+<a href="#"><span class="glyph">&#8801;</span>&nbsp;Menu</></a>
 </div>
 
 
