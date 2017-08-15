@@ -1,49 +1,28 @@
-<?php /* Template Name: about */ ?>
-
+<?php /* Template Name: adopt */ ?>
 <?php get_header(); ?>
+
+
 <div class="mainadopt">
-<div class="adopttop">
-<h3>Desiderata Foster</h3>
-<img class="adopttoppic" src="<?php bloginfo('template_directory'); ?>/images/adop_1.png">
-<p>your pet brings you so much happiness and joy. </p>
-<p>your gift will help us complete the shelfter and make pet adoption
-possible for familes just like yours.</p>
- <div class="button1">
-<button class="buttonclick1" type="button" onclick="location.href='http://google.com';">Dowload Foster Form</button>      
-</div>
 
+    <div id="about" class="sec">
+    <h3>About Us</h3>
+    <p>Desiderata translates to ‘something needed or wanted’. Spearheaded by rescue founder, Miriam Kelly, Desiderata is a new rescue located in Seattle, Washington with a focus on heartworm positive dogs who stand almost no chance of being adopted in over-crowded shelters.
 
-<div class="adoptmiddle">
+We treat them and then adopt them out. We also rescue cats and kittens, as well as heartworm negative dogs.
 
-<h2>Be a Foster Parent</h2>
+While we rescue mostly out of Texas shelters, we adopt and find fosters for our dogs and cats out of the Greater Puget Sound area.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-	luctus metus, lobortis tempus augue. Quisque aliquet, ex et fermentum
-	dapibus, ex risus sagittis odio, et pretium neque lacus vitae sem. Mauris
-	massa ante, scelerisque id tellus sed, elementum aliquam tortor. Praesent 
-	vel metus ligula. Nunc maximus condimentum dolor tristique condimentum. Curabitur
-	molestie aliquam interdum. Etiam vel posuere magna. Fusce diam tellus, 
-	consequat quis ante nec, sagittis tincidunt nulla. Sed eget ante a erat egestas
-	ultricies ac sit amet ligula. Aliquam ornare leo et enim viverra bibendum. Vivamus
-	molestie sapien ac rhoncus iaculis. Quisque maximus ut orci nec ultrices. Praesent
-	sit amet eros nec est tincidunt rutrum eget eget nisi. Fusce cursus a ante at semper
-	Nunc semper, dolor malesuada faucibus feugiat, nisi eros mattis turpis, non bibendum 
-	elit purus ut massa. Donec a elementum nunc. </p>
+We are a 501(c)(3) non-profit.
+</p>
+<h4>Desiderata Rescue is dedicated to the following goals:</h4>
+    <ul>
+        <li>Rescuing stray animals from animal shelters (mostly in Texas) who have not been adopted and are scheduled to be euthanized. Desiderata takes the animals who have been in the shelters the longest and will die unless rescued.</li>
+        <li>Providing medical care to neglected, abused and injured animals.</li>
+        <li>Rehabilitating hard-to-adopt animals and finding them loving homes.</li>
+        <li>Promoting the importance of spaying and neutering pets in order to drastically reduce the number of unwanted animals on the street.</li>
+        <li>Ultimately, securing a boarding facility or foster family where rescued pets can be safely sheltered without the threat of euthanization until we find adoptive parents for them.</li>
+    </ul>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-	luctus metus, lobortis tempus augue. Quisque aliquet, ex et fermentum
-	dapibus, ex risus sagittis odio, et pretium neque lacus vitae sem. Mauris
-	massa ante, scelerisque id tellus sed, elementum aliquam tortor. Praesent 
-	vel metus ligula. Nunc maximus condimentum dolor tristique condimentum. Curabitur
-	molestie aliquam interdum. Etiam vel posuere magna. Fusce diam tellus, 
-	consequat quis ante nec, sagittis tincidunt nulla. Sed eget ante a erat egestas
-	ultricies ac sit amet ligula. Aliquam ornare leo et enim viverra bibendum. Vivamus
-	molestie sapien ac rhoncus iaculis. Quisque maximus ut orci nec ultrices. Praesent
-	sit amet eros nec est tincidunt rutrum eget eget nisi. Fusce cursus a ante at semper
-	Nunc semper, dolor malesuada faucibus feugiat, nisi eros mattis turpis, non bibendum 
-	elit purus ut massa. Donec a elementum nunc. </p>
-	
-    
 </div>
 
 
