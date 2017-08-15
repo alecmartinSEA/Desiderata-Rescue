@@ -5,7 +5,7 @@
 <div class="mainadopt">
 <div class="adopttop">
     <h3>Desiderata Adoption</h3>
-    <img class="adopttoppic" src="images/adop_1.png">
+    <img class="adopttoppic" src="<?php bloginfo('template_directory'); ?>/images/adop_1.png">
     <h4 style="color: black; text-align: justify; margin-bottom: 30px;">Adoption Process</h4>
     <p>Please make sure to download and read our Adoption guidelines before applying.  There is some great information here and it is a requirement that you read and understand them.</p>
 
@@ -17,7 +17,9 @@
 
 <p style="margin-bottom:0;">Please let us know if you have any questions or concerns by emailing us at the above address!</p>
 
-    <button class="buttonclick1" type="button" onclick="location.href='http://google.com';">Dowload Adoption Form</button>
+     <a href="<?php bloginfo('template_directory'); ?>/adoption_contract.pdf" >
+    <button class="buttonclick1 donatebut" type="button">Download Adoption Form</button>
+    </a>
 
 </div>
 
@@ -25,12 +27,12 @@
 
     <div class="sec">
         <div class="adoptpic">
-            <img class="adoptdog" src="images/adopt_dog.png">
+            <img class="adoptdog" src="<?php bloginfo('template_directory'); ?>/images/adopt_dog.png">
         </div>
         <div class="adoptword">
             <h3>Dogs</h3>
             <p class="txt">Browse our dogs available for adoption today!</p>
-             <button class="buttonclick2" type="button" onclick="location.href='http://google.com';">Woof Woof</button>
+             <button class="buttonclick2" type="button" onclick="location.href='http://localhost:8888/wordpress/category/dogs/';">Woof Woof</button>
         </div>
     </div>
 
@@ -38,10 +40,10 @@
         <div class="adoptcatword">
         <h3>Cats</h3>
         <p class="txt">Browse our cats available for adoption today!</p>
-        <button class="buttonclick2" type="button" onclick="location.href='http://google.com';">Meow Meow</button>
+        <button class="buttonclick2" type="button" onclick="location.href='http://localhost:8888/wordpress/category/cats/';">Meow Meow</button>
         </div>
             <div class="adoptcatpic">
-        <img  class="adoptdog" src="images/adopt_cat.png">
+        <img  class="adoptdog" src="<?php bloginfo('template_directory'); ?>/images/adopt_cat.png">
         </div>
     </div>
 

@@ -4,15 +4,8 @@
 
 <div class="mainadopt">
 
-   <div class="adopttop">
-    <h3>Contact Page</h3>
-    <img class="donatetoppic" src="<?php bloginfo('template_directory'); ?>/images/volunteer.png" /> </br>
-   
-</div>
-   
-
-    <div class="donatemiddle sec">
-    
+    <div id="about" class="sec">
+    <h3>Contact Us</h3>
     <p>Please email us at desiderataresuce@gmail.com or call us at XXX.</p>
     <p>
 The majority of the animals that come to Desiderata Rescue are from public shelters in the Texas area and are in immediate danger of being euthanized. Although we wish we could place each and every animal that is wandering the streets or belongs to an owner that feels forced to give it up, it is not within our power to take them in. However, there are ways that you, the individual who cares, can help…</p>
