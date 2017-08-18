@@ -17,9 +17,9 @@
 
 <p style="margin-bottom:0;">Please let us know if you have any questions or concerns by emailing us at the above address!</p>
 
-     <a href="<?php bloginfo('template_directory'); ?>/adoption_contract.pdf" >
+     <!--<a href="<?php bloginfo('template_directory'); ?>/adoption_contract.pdf" >
     <button class="buttonclick1 donatebut" type="button">Download Adoption Form</button>
-    </a>
+    </a> -->
 
 </div>
 

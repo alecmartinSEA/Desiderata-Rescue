@@ -5,6 +5,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+   <!-- Begin Toggle Menu -->
+
+
+
+
+
+
 </head>
 <body>
     <header>
@@ -24,13 +31,24 @@
 
     <li><a href="#">Foster</a></li>
 </ul>-->
-<a href="#"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png"></a>
+<a href="/wordpress">
+<img id="logo" src="<?php bloginfo('template_directory'); ?>/images/desiderata_logo.png">
+</a>
 
+
+<div id="toggle">
+<a href="#"><span class="glyph">&#8801;</span>&nbsp;</a>
+</div>
+<img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
+<?php wp_nav_menu(array('theme_location'=>'Main2', 'container' => false,  'items_wrap' => '<ul id="mobile-nav"
+class="hide">%3$s</ul>', ) ); ?>
 
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="hide">%3$s</ul>', ) ); ?>
 
-<a href="#"><span class="glyph">&#8801;</span>&nbsp;Menu</a>
+
+
+
 
 
 
@@ -40,8 +58,6 @@ class="hide">%3$s</ul>', ) ); ?>
    
 
 
-
-<img id="search-button" src="<?php bloginfo('template_directory'); ?>/images/search.png">
 
 <?php
 if ( is_active_sidebar( 'custom-header-widget' ) ) : ?>

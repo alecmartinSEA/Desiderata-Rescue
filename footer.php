@@ -35,7 +35,7 @@
 		<div id="right">
 		<p class="follow">Follow Us</p>	
             <div class="iconbox">
-		<a href="#"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/dog.png"></a>
+		<a href="/wordpress"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/dog.png"></a>
 		<a href="https://urlgeni.us/instagram/Y3KR"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/instagram.png"></a>
         <a href="https://urlgeni.us/facebook/fX4c"><img class="icon" src="<?php bloginfo('template_directory'); ?>/images/facebook.png"></a>
                 </div><!--end of icon box-->
