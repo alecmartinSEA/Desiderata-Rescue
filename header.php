@@ -71,6 +71,9 @@ $("#mobile-nav").show(); // show main navigation items
 <?php wp_nav_menu(array('theme_location'=>'Main1', 'container' => false,  'items_wrap' => '<ul id="nav-left"
 class="hide">%3$s</ul>', ) ); ?>
 
+<?php wp_nav_menu(array('theme_location'=>'Main2', 'container' => false,  'items_wrap' => '<ul id="mobile-nav"
+class="hide">%3$s</ul>', ) ); ?>
+
 
 
 
